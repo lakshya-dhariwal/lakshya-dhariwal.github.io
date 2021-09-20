@@ -1,0 +1,247 @@
+*{
+    font-family: 'IBM Plex Mono';
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFFEFE;
+   
+  
+    color: #32332C;
+}
+a{
+    text-decoration: none;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    
+}
+.nav ul{
+    color:#32332C ;
+    font-size: 1.5rem;
+}
+.navLinks ul:hover{
+    background-color:#32332C ;
+    color: #FFFEFE;
+}
+.nav .wave{
+    /* align-self: flex-start; */
+}
+#page1{
+    height: 100vh;
+}
+#page2{
+    background-color: #B2BBF0;
+    height: 70rem;
+}
+#page2 button{
+    background-color: rgb(113,128,228);
+}
+#page3{
+   
+    background-color: blanchedalmond;
+    height: 60rem;
+}
+#page3 button{
+    background-color: #EFAC5C;
+}
+#page4{
+    background-color: rgb(136, 245, 177);
+    height: 60rem;
+}
+#page4 button{
+    background-color: rgb(40,165,127);
+}
+.intro p{
+    margin-right: 1rem;
+}
+#stockrDemo{
+    height:42rem;
+}
+.mediaBtn{
+    display: flex;
+    flex-direction: 1;
+    justify-content:space-evenly ;
+    
+}
+.mediaBtn button{
+    
+    cursor: pointer;
+    box-shadow: -3px 5px #33332d;
+    border: 3px solid #33332d;
+    color: #32332C;
+    font-size: 2rem;
+    
+}
+.page image{
+    width: 30vh;
+}
+.page button:hover{
+    background-color:#FFFEFE;
+    color: #32332C;
+}
+.page p{
+    margin: 2rem 0rem;
+}
+i{
+    pointer-events: none;
+}
+
+ul{
+    text-decoration: none;
+}
+#anchorProject{
+    text-decoration: none;
+    color: #FFFEFE;
+}
+
+.nav{
+    position: sticky ;
+    top: 0%;
+    z-index: 1;
+}
+
+.main h1{
+    font-size: 3rem;
+    font-weight: 1000;
+    line-height: 59.4px;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    
+    
+}
+.main p{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 27px;
+}
+.main{
+    
+    color: #32332C;
+    
+}
+.infoCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:row;
+    text-align: center;
+    height: 70vh;
+    width: 100%;
+    overflow:hidden;
+}
+@media only screen and (max-width:830px){
+    .infoCard{
+        flex-direction: column;
+    }
+    .main h1{
+        font-size: 2rem;
+        
+    }
+    .infoCard img{
+        width: 500px;
+    }
+    .navLinks{
+        font-size: 1rem ;
+    }
+}
+.illustration{
+    height:400px;
+    /* width: 600px; */
+}
+#projects{
+    
+    
+    cursor: pointer;
+    
+    color: #32332C;
+    padding: .6rem 1rem ;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    box-shadow: -3px 5px #33332d;
+    border: 3px solid #33332d;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 27.99px;
+    
+}
+#projects:hover{
+    background-color:#32332C ;
+    color: white;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#pixelDemo{
+    height: 300px;
+
+}
+#pixelDemo{
+    border: 2px solid #32332C;
+}
+
+/* wave animation */
+.wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+/* @media only screen and (max-width: 1200px) {
+    body {
+      background-color: lightblue;
+    }
+    .main{
+        flex-direction: column;
+    }
+    .illustration{
+        height: 300px;
+    }
+    .main .intro{
+    text-align: center;
+    }
+    .main h1{
+        margin-right: 0;
+    }
+  }
+@media only screen and (max-width:400px){
+    body{
+        background-color: burlywood;
+        width: 100vh;
+    }
+    .intro h1{
+        font-size: 40px;
+    }
+    .intro p{
+        font-size:10px;
+    }
+    .into #break{
+        visibility: hidden;
+    }
+    #projects{
+        left: 28%;
+        
+    }
+    .main img{
+        height: 200px;
+    }
+} */
