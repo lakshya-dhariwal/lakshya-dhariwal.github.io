@@ -150,6 +150,9 @@ ul{
     #stockrDemo{
         width: 420px;
     }
+    .nav ul{
+        font-size: 1rem;
+    }
 }
 .illustration{
     height:400px;
@@ -248,3 +251,18 @@ ul{
         height: 200px;
     }
 } */
+@media only screen and (max-width:500px){
+    body{
+        
+    }
+    #page2 button{
+        font-size: 1.5rem;
+    }
+    #page3 img{
+        width: 100%;
+    }
+    #page4 img{
+        width: 100%;
+        
+    }
+}
