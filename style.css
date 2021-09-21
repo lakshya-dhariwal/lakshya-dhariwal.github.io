@@ -147,6 +147,9 @@ ul{
     .navLinks{
         font-size: 1rem ;
     }
+    #stockrDemo{
+        width: 420px;
+    }
 }
 .illustration{
     height:400px;
